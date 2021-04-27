@@ -1,0 +1,35 @@
+{
+  "name": "inferno-basket",
+  "homepage": "./",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@vkontakte/vk-bridge": "^2.4.1",
+    "babylonjs": "^4.2.0",
+    "cannon": "^0.6.2",
+    "inferno": "^7.4.8",
+    "inferno-scripts": "7.0.4",
+    "pepjs": "^0.5.3"
+  },
+  "scripts": {
+    "deploy": "vk-miniapps-deploy",
+    "start": "inferno-scripts start --host 192.168.1.67",
+    "build": "inferno-scripts build",
+    "test": "inferno-scripts test",
+    "eject": "inferno-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "inferno-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@vkontakte/vk-miniapps-deploy": "0.0.25"
+  }
+}
